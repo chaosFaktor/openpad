@@ -13,15 +13,35 @@
     
 }
 
-.topdiv th{
+.topdiv .imp{
+    float: left;
+    padding: 4px 22px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(11, 21, 20);
+    text-decoration: none;
+    background-color: rgb(58, 194, 156);
     border: 0px;
-    border-right: 2px;
-    border-left: 2px;
-    border-color: azure;
+    border-bottom: 3px;
+    border-right: 4px;
+    border-color: white;
+    border-style: solid;
+
 }
 .topdiv a {
     float: left;
+    padding: 4px 22px;
+    font-size: 30px;
     text-align: center;
     color:rgb(233, 255, 254);
     text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.topdiv .dropdownlogo {
+    float: right;
+    padding: 16px 16px;
+    margin: 4px;
+    background-image: url("../images/ChaosSphere.png");
+    
 }
