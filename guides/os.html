@@ -7,15 +7,28 @@
     <link rel="stylesheet" type="text/css" href="./../css/paragraphs.css" />
     <link rel="stylesheet" txpe="text/css" href="./../css/topBar.css" />  
     <link rel="stylesheet" type="text/css" href="./../css/basic.css" />  
+   
+
+    <script type="text/javascript" src="./../js/dropdown.js">
+        function toggleLogoDropCall() {
+            console.log('Working')
+            toggleLogoDrop();
+        }
+    </script>
+
+    <style>
+        body{
+            background-color: #032029;
+            height: 100%;
+            width: 100%;
+         }
+    </style>
+
+
 </head>
 
-<style>
-   body{
-    background-color: #032029;
-    height: 100%;
-    width: 100%;
-    }
-</style>
+
+
 
 
 
@@ -25,7 +38,14 @@
         <a href="">Beispiel</a>
         <a href="">Beispiel</a>
         <a href="">Beispiel</a>
-        <button onclick="toggleTopDropdown()" class="dropdownlogo">
+        <div class="dropdownlogo chaosSphereNormal" id="logoDropLogo">
+            <div onclick="toggleLogoDrop()" class="dropdownlogobtn"></div>
+            <br>
+            <div id="logoDropCnt" class="dropdownlogocnt hide">
+                <h1>Hallo</h1>
+            </div>
+        </div>
+
     </div>
     
     <div class="container">
@@ -37,3 +57,7 @@
 
 
 </body>
+
+
+
+f

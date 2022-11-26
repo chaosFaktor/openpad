@@ -29,6 +29,21 @@
     border-style: solid;
 
 }
+.topdiv .imp:hover{
+    float: left;
+    padding: 4px 22px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(11, 21, 20);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-bottom: 3px;
+    border-right: 4px;
+    border-color: white;
+    border-style: solid;
+}
 .topdiv a {
     float: left;
     padding: 4px 22px;
@@ -37,11 +52,56 @@
     color:rgb(233, 255, 254);
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
+
 }
-.topdiv .dropdownlogo {
+.topdiv a:hover {
+    float: left;
+    padding: 4px 22px;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(1, 1, 1);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border:0px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: white;
+    
+}
+.dropdownlogo{
+    float:right;
+     
+
+}
+.topdiv .dropdownlogobtn {
     float: right;
+    background-color: white;
     padding: 16px 16px;
     margin: 4px;
     background-image: url("../images/ChaosSphere.png");
+    cursor: pointer;
     
+}
+.topdiv .dropdownlogobtn:hover {
+    float: right;
+    background-color: rgb(193, 193, 193);
+    padding: 16px 16px;
+    margin: 4px;
+    background-image: url("../images/ChaosSphereInverted.png");
+    cursor: pointer;
+    
+}
+.topdiv .dropdownlogocnt{
+    
+    
+    float:right;
+    background-color: #000000cd;
+    color: white;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.hide {
+    display:none;
 }
