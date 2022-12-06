@@ -13,6 +13,9 @@
     text-decoration: none;
     color: rgb(77, 152, 187)
 }
+.article p{
+    margin-bottom: 5px;
+}
 .article {
     text-align: center;
     margin:0 auto;
@@ -54,7 +57,7 @@
 .container{
     background-color: #000000;
     color: white;
-    width: 80%;
+    width: 1860px;
     height: 100%;
     text-align: center;
     margin: 0 auto;
@@ -70,6 +73,7 @@
     font-size: 25px;
     display: inline-block;
     background-color:white;
+    margin-bottom: 50px;
 }
 .linkbox h2{
     background-color: rgb(48, 48, 48);
