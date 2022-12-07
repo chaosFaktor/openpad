@@ -26,6 +26,86 @@
     border-right: 0;
     border-style: solid;
 }
+.nostar {
+    width: 152px;
+    height: 34px;
+    background-image: url("../images/0_squares.png");
+    background-size: 100%;
+    background-color: rgb(0, 45, 34);
+    float: right;
+}
+.onestar {
+    width: 152px;
+    height: 34px;
+    background-image: url("../images/1_square.png");
+    background-size: 100%;
+    background-color: rgb(0, 45, 34);
+    float: right;
+}
+.twostar {
+    width: 152px;
+    height: 34px;
+    background-image: url("../images/2_squares.png");
+    background-size: 100%;
+    background-color: rgb(0, 45, 34);
+    float: right;
+}
+.threestar {
+    width: 152px;
+    height: 34px;
+    background-image: url("../images/3_squares.png");
+    background-size: 100%;
+    background-color: rgb(0, 45, 34);
+    float: right;
+}
+.fourstar {
+    width: 152px;
+    height: 34px;
+    background-image: url("../images/4_squares.png");
+    background-size: 100%;
+    background-color: rgb(0, 45, 34);
+    float: right;
+}
+.fivestar {
+    width: 152px;
+    height: 34px;
+    background-image: url("../images/5_squares.png");
+    background-size: 100%;
+    background-color: rgb(0, 45, 34);
+    float: right;
+}
+
+
+.rating-div{
+    width: 500px;
+    background-color: rgb(0, 83, 62);
+    color: white;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-top:60px;
+    margin-bottom:25px;
+}
+.rating-div h2{
+    color:rgb(226, 226, 226);
+    padding: 0;
+    padding-top:13px;
+}
+.rating-div td{
+    margin: 0;
+    padding-right: 16px;
+    font-size: 20px;
+    font-weight:700;
+    padding-left: 12px;
+}
+.rating-div th{
+    margin: 0;
+    padding-left: 15px;
+}
+.rating-div a{
+    text-align: right;
+    display: inline;
+}
+
 .heading{
     color: aquamarine;
     text-shadow: 3px 3px 3px rgb(3, 128, 128);
@@ -83,19 +163,18 @@
     
 }
 .linkbox a{
-    padding-left: 3px;
     color:black;
-    text-decoration: none;
     text-align: left;
-    padding-right: 80%;
-    font-weight: 550;
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
 }
 .linkbox a:hover{
-    
-    color:rgb(73, 73, 73);
-    text-decoration: none;
+    color:rgb(170, 170, 170);
     text-align: left;
-    padding-right: 80%;
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
 }
 .container p{
     color: white;
