@@ -14,8 +14,8 @@
     color: rgb(77, 152, 187);
 }
 .article a:hover{
-    text-decoration: none;
-    color: rgb(170, 201, 216);
+    text-decoration: underline solid;
+    color: rgb(141, 141, 141);
 }
 .article p{
     margin-bottom: 5px;
@@ -111,7 +111,8 @@
     color: rgb(49, 168, 247);
 }
 .rating-div a:hover{
-    color: rgb(180, 180, 180);
+    color: rgb(189, 189, 189);
+    text-decoration: underline double;
 }
 
 .heading{
