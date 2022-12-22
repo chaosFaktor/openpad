@@ -23,6 +23,7 @@
     width: 95%;
     background-color: rgb(14, 14, 14);
     padding-left: 2%;
+    text-shadow: 4px 3px 1px black;
 }
 .article a{
     text-decoration: none;
@@ -35,6 +36,67 @@
 .article p{
     margin-bottom: 5px;
 }
+.article .pro-div{
+    display: inline;
+    float:left;
+    width:50%;
+    background-color: rgb(2, 2, 2);
+}
+
+.article .pro-div table{
+    width:100%;
+    
+}
+.article .pro-div th{
+    width: 100%;
+    text-align: center;
+    font-size:45px;
+    color:rgb(21, 255, 71);
+    padding-bottom: 20px;
+    
+}
+.article .pro-div td{
+    text-align: left;
+    font-size: 20px;
+    width: 45%;
+    float:left;
+}
+.article .pro-div b{
+    font-weight: 700;
+    font-size: 30;
+    color:rgb(21, 255, 71);
+    
+}
+.article .contra-div{
+    display: inline;
+    float:left;
+    width:50%;
+    background-color: rgb(2, 2, 2);
+}
+
+.article .contra-div table{
+    width:100%;
+    
+}
+.article .contra-div th{
+    text-align: center;
+    font-size:45px;
+    color:rgb(255, 43, 75);
+    
+}
+.article .contra-div td{
+    text-align: left;
+    font-size: 20px;
+    width: 45%;
+    float:left;
+}
+.article .contra-div b{
+    font-weight: 700;
+    color:rgb(255, 43, 75);
+    
+}
+
+
 .article .redbox{
 /*  Now the orangest red box on the planet!!!   */
     background-color: rgb(14, 4, 0);
@@ -123,6 +185,7 @@
 
 
 .rating-div{
+    margin-top: 30px;
     width: 500px;
     background-color: rgb(0, 83, 62);
     color: white;
@@ -134,7 +197,8 @@
 .rating-div h2{
     color:rgb(226, 226, 226);
     padding: 0;
-    padding-top:13px;
+    padding-top:15px;
+    margin-top:15px;
 }
 .rating-div td{
     margin: 0;
@@ -187,7 +251,8 @@
 
 }
 .container{
-    background-color: #000000;
+    background-color: rgb(2, 2, 2);
+    /*background-color: black;*/
     color: white;
     width: 95%;
     /*width: 1860px;*/
