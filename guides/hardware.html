@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="shortcut icon" href="./../images/favicon.ico" />
+    <title>Die Hardware</title>
+
+    <link rel="stylesheet" type="text/css" href="./../css/paragraphs.css" />
+    <link rel="stylesheet" txpe="text/css" href="./../css/topBar.css" />  
+    <link rel="stylesheet" type="text/css" href="./../css/basic.css" />  
+   
+
+    <script type="text/javascript" src="./../js/dropdown.js">
+        function toggleLogoDropCall() {
+            console.log('Working')
+            toggleLogoDrop();
+        }
+    </script>
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+    <div class="topdiv">
+        <a class="imp" href="../index.html">Einführung</a>
+        <a href="">Die Hardware</a>
+        <a href="./os.html">Das OS</a>
+        <a href="">Beispiel</a>
+        <div class="dropdownlogo chaosSphereNormal" id="logoDropLogo">
+            <div onclick="toggleLogoDrop()" class="dropdownlogobtn"></div>
+            <br>
+            <div id="logoDropCnt" class="dropdownlogocnt hide">
+                <h1>chaosFaktor</h1>
+                <p><a href="https://www.github.com/chaosFaktor" target="_blank">github</a><br><a href="https://maschinendeck.org/" target="_blank">Maschinendeck</a></p>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="heading">
+            <h1>Die Hardware</h1>
+        </div>
+        <div class="introduction">
+            <p>Einleitung Hier!!!</p>
+        </div>
+        <div class="linkbox">
+            <h2>Abschnitte</h2>
+            <a href="#overview"><h3>Der Computer</h3></a>
+
+            <a href="#rpi4">—Raspberry Pi 4</a>
+            <a href="#rpi3">—Raspberry Pi 3</a>
+            <a href="#rockpi4">—Rock Pi 4</a>
+            <a class="topline" href="#touch"><h3>Touchpad</h3></a>
+            <a class="topline" href="#projects"><h3>Projektideen</h3></a>
+            <a href="#strompi">—Strompi</a>
+            <a href="#strompilithium">->Lithium</a>
+            <a href="#strompi9vblock">->9V Block</a>
+            <a href="#cover">—Die Hülle</a>
+            
+            <a href="#rpi-imager">—Debian</a>
+        </div>
+    
+        <div class="article" id="overview">
+            <h2 class="imp">Der Computer</h2>
+            <h3>(Klicken Sie auf Überschriften, um zur Website zu kommen)</h3>
+            <p></p>
+        </div>
+
+
+        
+        <div class="article" id="rpi4">
+            <h2><a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Raspberry Pi 4</a></h2>
+            <h3></h3>
+            <p>Der Pi 4 ist die neuste Iteration des kleinen single-board Computers von der Raspberry Pi Foundation. Der Pi 4 verfügt über viele verschiedene Anschlüsse, und könnte hypotetisch neben dem kleinen Video-Anschluss, den wir für das Display verwenden werden, noch zwei externe Monitore bis 4k ansteuern.<br>Die Kabel lassen sich bequem aus dem Tablet führen, wenn Sie ein kleines Loch in eine der Seiten stechen.</p>
+            
+            
+                <div class="pro-div">
+                    <table>
+                        <tr>
+                            <th>Pro</th>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>2X Micro HDMI</td>
+                            <td><b>+</b>USB-C stromanschluss</td>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>Ethernet-Anschluss</td>
+                            <td><b>+</b>Programmierbare GPIO-Pins</td>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>2X USB 3 Ports</td>
+                            <td><b>+</b>2X USB 2 Ports</td>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>Wlan und Bluetooth</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="contra-div">
+                    <table>
+                        <tr>
+                            <th>Contra</th>
+                        </tr>
+                        <tr>
+                            <td><b>—</b>Relativ hoher Preis</td>
+                            <td><b>—</b>Aktueller (2022) Preisanstieg</td>
+                        </tr>
+                    </table>
+                </div>
+                <span class="hyperwidth"></span>
+                <p>Wählen Sie diesen Computer, wenn Sie ein solides, und zuverlässiges Produkt wollen.<br>(Ich empfehle eine Version mit mindestens 2GB Ram)<br><a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Zur Website</a></a></p>
+
+        </div>
+
+
+
+
+
+
+        <div class="article" id="rpi3">
+            <h2><a href="https://www.raspberrypi.com/products/raspberry-pi-3-model-b/" target="_blank">Raspberry Pi 3</a></h2>
+            <h3></h3>
+            <p><span title="No shit sherlock">Der Pi 3 ist der Vorgänger des Pi 4 </span>, ist jedoch weitgehend mit dem Raspberry Pi 4 kompatibel.</p>
+            
+            <div class="pro-div">
+                <table>
+                    <tr>
+                        <th>Pro</th>
+                    </tr>
+                    <tr>
+                        <td><b>+</b>HDMI-Anschluss</td>
+                        <td><b>+</b>Etwas billiger als Raspberry Pi 4</td>
+                    </tr>
+                    <tr>
+                        <td><b>+</b>Ethernet-Anschluss</td>
+                        <td><b>+</b>Programmierbare GPIO-Pins</td>
+                    </tr>
+                    <tr>
+                        <td><b>+</b>Garantierte Produktion bis 2026</td>
+                        <td><b>+</b>4X USB 2 Ports</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="contra-div">
+                <table>
+                    <tr>
+                        <th>Contra</th>
+                    </tr>
+                    <tr>
+                        <td><b>—</b>Mikro-USB-Stromanschluss</td>
+                        <td><b>—</b>Aktueller (2022) Preisanstieg</td>
+                    </tr>
+                </table>
+            </div>
+            <span class="hyperwidth"></span>
+            <p>Wählen Sie diesen Computer, wenn Sie keine "Desktop PC Leistung" benötigen, oder eine Budget-Freundliche Alternative benötigen.<br><a href="https://www.raspberrypi.com/products/raspberry-pi-3-model-b/" target="_blank">Zur Website</a></a></p>
+        </div>
+
+
+
+
+
+        <div class="article" id="rockpi4">
+            <h2><a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Rock Pi 4</a></h2>
+            <h3></h3>
+            <p>Der Rock Pi 4 ist eine beliebte Alternative zu dem Raspberry Pi 4, und verfügt über deutlich mehr Prozessorleistung. Auch wenn Rock Pi kein teil der berühmten Raspberry Pi Foundation ist, so stehen sie dem Marken-Computer in nichts nach. Tatsächlich sind die meisten Rock-Pis ihren Raspberry alternativen um einiges vorraus. Wenn auch leider häufig im Preis.</p>
+            
+            
+                <div class="pro-div">
+                    <table>
+                        <tr>
+                            <th>Pro</th>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>HDMI-Anschluss</td>
+                            <td><b>+</b>USB-C stromanschluss</td>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>Ethernet-Anschluss</td>
+                            <td><b>+</b>Programmierbare GPIO-Pins</td>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>2X USB 3 Ports</td>
+                            <td><b>+</b>2X USB 2 Ports</td>
+                        </tr>
+                        <tr>
+                            <td><b>+</b>Wlan und Bluetooth</td>
+                            <td><b>+</b>Sehr leistungsstarke CPU / GPU</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="contra-div">
+                    <table>
+                        <tr>
+                            <th>Contra</th>
+                        </tr>
+                        <tr>
+                            <td><b>—</b>Relativ hoher Preis</td>
+                        </tr>
+                    </table>
+                </div>
+                <span class="hyperwidth"></span>
+                <p>Wählen Sie diesen Computer, wenn Sie einen Besonders leistungsstarken Computer suchen, mit KI-Technik, oder mit Video-Arbeit auch unterwegs nicht stoppen wollen, oder einfach ein kleines Extra wollen.<br><a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Zur Website</a></a></p>
+
+        </div>
+
+        <div class="article" id="touch">
+            <h2 class="imp">Das Touchpad</h2>
+            <h3></h3>
+            <p>Als Touchpad kann ich eine klare Empfehlung geben: das <a href="https://www.raspberrypi.com/products/raspberry-pi-touch-display/" target="_blank">offizielle Touchpad der Raspberry Pi Foundation</a>. Dieses sollte mit alle obigen Computer kompatibel sein.</p>
+            <div class="redbox"><p>Sollten Sie aus Preisgründen, oder Präferenz ein anderes Touchpad verwenden wollen, so müssen Sie selber auf die Kompatibilität achten, und geg. Teile der Anleitung anpassen.</p></div>
+        </div>
+
+        <div class="article" id="projects">
+            <h2 class="imp">Vorschläge für weitere Projekte:</h2>
+            <p>Im folgenden will ich ein paar Beispiele für mögliche Personalisierungen machen.</p>
+        </div>
+
+        <div class="article" id="strompi">
+            <h2><a href="https://joy-it.net/de/products/rb-strompi3" target="_blank">Strom Pi3 Hat</a></h2>
+            <p>Diese praktische Platine lässt sich einfach auf den Pi aufsetzen. Danach verfügt dieser über die Fähigkeit über eine beliebige Stromquelle (6V-61V, max. 3A) versorgt zu werden, und kann durch eine <a href="https://joy-it.net/de/products/RB-StromPI3BAT" target="_blank">Lithium-Ionen-Batterie</a> (/<a href="https://joy-it.net/de/products/RB-StromPi3BAT-XL" target="_blank">hier</a>), oder wenn Sie sich wild fühlen über einen regulären 9V Batterieblock versorgt werden.</p>
+        </div>
+        <div class="article" id="strompilithium">
+            <h2><a href="" target="_blank">Lithium</a></h2>
+            <h3>strompi</h3>
+            <p>Hier gibt es nun zwei mögliche Varianten: einmal eine <a href="https://joy-it.net/de/products/RB-StromPI3BAT" target="_blank">"reguläre" Variante</a> mit 1000mAh, und einmal eine <a href="https://joy-it.net/de/products/RB-StromPi3BAT-XL" target="_blank">Variante mit mehr Kapazität</a> mit 2000mAh. Beide lassen sich auf die selbe art einfach auf den Srom Pi anstecken lassen, und an den Port hinter dem Lan-Port einstecken lassen. Danach wird sich dieser automatisch aufladen, wenn eine Stromquelle angeschlossen wird, und entladen, wenn der Pi sonst keine Stromquelle hatt.</p>
+            <!--<div class="redbox"><p>Ab diesem Punkt sollte der Pi anstatt ausgeschaltet zu werden nur noch in den "Sleep", or "Hybernate" modus gewechselt werden. Um den Pi Einzuschallten muss nämlich entweder der mittige </p></div>-->
+        </div>
+        <div class="article" id="strompi9vblock">
+            <h2><a href="" target="_blank">9V-Batterie</a></h2>
+            <h3>strompi</h3>
+            <p>Nun können Sie eine beliebige Energiequelle zwischen 6 und 61V an die zwei kleinen Klemmen anschließen. Was genau dies sein könnte liegt natürlich Ihnen überlassen. Im meinem Fall wechsele ich gelegentlich zwischen einen kleinem Netzteil mit Kabel, welches eine passende Spannung liefert, und dessen Enden ich abgeschnitten habe, und einer 9V-Batterie.<br>Der Vorteil von dieser liegt einfach darin, dass ich mein Tablet im Zweifelsfall nicht nachladen muss, sondern einfach die Batteriewechseln kann. Einen Clip können Sie z.B. <a href="https://www.reichelt.de/batterieclip-fuer-9-volt-block-vertikal-clip-9v-p6665.html?&trstct=pol_0&nbc=1" targe="_blank">hier</a>, oder quasi überall anders für einen Fingehut voll Cents bestellen.</p>
+        </div>
+        <div class="article" id="cover">
+            <h2>Die Hülle</h2>
+            <p>Diese können Sie entweder 3D-Drucken, oder z.B. aus einer Brotbox improvisieren. Ich empfehle Ihnen mal bei Ihrem lokalen Hackerspace nachzufragen, ob Sie gegen einer kleinen Bezahlung nicht deren 3D-Drucker benutzen dürfen. Wer weiß? Vielleicht finden Sie sogar neue Freunde.<br>Ein mögliches Modell finden Sie <a href="https://www.thingiverse.com/thing:1082431" target="_blank">hier</a>.</p>
+        </div>
+
+
+
+    </div>
+</body>
