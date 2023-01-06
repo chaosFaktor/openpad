@@ -1,3 +1,16 @@
+.slide {
+    box-shadow: 2px, 2px, 2px #00060a;
+    width: 40%;
+    color:aliceblue;
+}
+.right-side{
+    float: right;
+}
+
+bold{
+    font-weight: bold;
+}
+
 .article h2{
     padding-top: 60px;
     padding-right: 5px;
@@ -35,12 +48,12 @@
 .article p{
     margin-bottom: 5px;
 }
-.article .hyperwidth {
+.hyperwidth {
     width: 101%;
     height: 1px;
     display: inline-block;
 }
-.article .pro-div{
+.pro-div{
     display: inline;
     float:left;
     width:50%;
@@ -48,11 +61,11 @@
     
 }
 
-.article .pro-div table{
+.pro-div table{
     width:100%;
     
 }
-.article .pro-div th{
+ .pro-div th{
     width: 100%;
     text-align: center;
     font-size:45px;
@@ -60,19 +73,19 @@
     padding-bottom: 20px;
     
 }
-.article .pro-div td{
-    text-align: left;
+.pro-div td{
+text-align: left;
     font-size: 20px;
     width: 45%;
     float:left;
 }
-.article .pro-div b{
+ .pro-div b{
     font-weight: 700;
     font-size: 30;
     color:rgb(21, 255, 71);
     
 }
-.article .contra-div{
+ .contra-div{
     display: inline;
     float:left;
     width:50%;
@@ -81,23 +94,23 @@
 
 }
 
-.article .contra-div table{
+.contra-div table{
     width:100%;
     
 }
-.article .contra-div th{
+.contra-div th{
     text-align: center;
     font-size:45px;
     color:rgb(255, 43, 75);
     
 }
-.article .contra-div td{
+.contra-div td{
     text-align: left;
     font-size: 20px;
     width: 45%;
     float:left;
 }
-.article .contra-div b{
+ .contra-div b{
     font-weight: 700;
     color:rgb(255, 43, 75);
     
