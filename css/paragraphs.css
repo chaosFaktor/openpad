@@ -1,10 +1,13 @@
 .slide {
-    box-shadow: 2px, 2px, 2px #00060a;
+    box-shadow: 6px 5px 1px 0px #00060a;
     width: 40%;
     color:aliceblue;
+    background-color: #03132067;
 }
 .right-side{
     float: right;
+    margin-right:8px;
+    margin-bottom:3px;
 }
 
 bold{
