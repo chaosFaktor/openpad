@@ -56,7 +56,7 @@
 }
 .topdiv a:hover {
     float: left;
-    padding: 4px 22px;
+    /*padding: 4px 22px;*/
     font-size: 30px;
     text-align: center;
     color:rgb(1, 1, 1);
@@ -82,6 +82,7 @@
     cursor: pointer;
     
 }
+
 .topdiv .dropdownlogobtn:hover {
     float: right;
     background-color: rgb(193, 193, 193);
@@ -89,20 +90,37 @@
     margin: 4px;
     background-image: url("../images/ChaosSphereInverted.png");
     cursor: pointer;
+    display: block;
     
 }
 .topdiv .dropdownlogocnt{
-    
-    
+    margin-top: 70px;
+    overflow: hidden;
     float:right;
+    
+    background-color: #000000;
+    color: #00000000;
+    position: absolute;
+
+    
+    padding-left:70%;
+    
+    
+    
+    
+}
+.topdiv .dropdownlogocnt:hover{
+    
+    
+    padding-right: 0;
+    position:relative;
     background-color: #000000cd;
     color: white;
+    width: auto;
     min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 3;
+    
+    
 }
 
 
-.hide {
-    display:none;
-}
