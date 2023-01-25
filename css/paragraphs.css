@@ -1,13 +1,13 @@
 .slide {
-    box-shadow: 6px 5px 1px 0px #00060a;
-    width: 40%;
-    color:aliceblue;
-    background-color: #03132067;
+    width: 1500px;
+    height: 310px;
+    
 }
 .right-side{
     float: right;
     margin-right:8px;
     margin-bottom:3px;
+    padding-left: 100%;
 }
 
 bold{
@@ -51,16 +51,21 @@ bold{
 .article p{
     margin-bottom: 5px;
 }
-.hyperwidth {
+.hyperwidth{
     width: 101%;
     height: 1px;
     display: inline-block;
+}
+.hyperheight{
+    height: 101%;
+    
 }
 .pro-div{
     display: inline;
     float:left;
     width:50%;
     background-color: rgb(2, 2, 2);
+    
     
 }
 
@@ -257,11 +262,41 @@ text-align: left;
     padding-bottom: 10px;
 }
 .blackbox{
-    background-color: #03132067;
+    background-color: #0313208f;
+    
+    
+    box-shadow: 4px 3px 1px 0px #00060a;
+    overflow: auto;
+
+    
+}
+.blackbox:hover{
+    background-color: #0313207c;
     
     
     box-shadow: 6px 5px 1px 0px #00060a;
+    overflow: auto;
+    animation-name: lightningUp-blackbox;
+    animation-duration: 500ms;
+}
+.blackbox .pro-div{
+    color:white;
+    display: inline;
+    float:left;
+    width:50%;
+    background-color: rgba(0, 0, 0, 0);
     
+}
+.blackbox .contra-div{
+    color:white;
+    display: inline;
+    float:right;
+    width:50%;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.blackbox h1{
+    font-size: 45px;
 }
 .blackboxtxt{
     color:#d4d4d4;
@@ -332,4 +367,22 @@ text-align: left;
     font-size: 20px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+
+.linkA{
+    background-color: #00060a;
+    color:white;
+
+    
+}
+
+/*  Animations  */
+@keyframes blackWhiteTransition{
+    from {background-color: black; color:white;}
+    to   {background-color: white; color:black;}
+}
+@keyframes lightningUp-blackbox{
+    from {background-color: #0313208f; box-shadow: 4px 3px 1px 0px #00060a;}
+    to   {background-color: #0313207c; box-shadow: 6px 5px 1px 0px #00060a;}
 }

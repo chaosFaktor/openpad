@@ -15,6 +15,7 @@
         background-size: 99% 99%;
         height: 925px;
         width: 1900px;
+        background-image: url('./images/favicon.ico');
         
     }
     body{
@@ -28,7 +29,13 @@
         border-color: #aec6d900;
         color:#ffff;
         text-shadow: 2px 2px 1px #424242;
+        animation-name:blackWhiteTransition;
+        animation-duration: 1s;
         
+    }
+    h2{
+        animation-name:blackWhiteTransition;
+        animation-duration: 1s;
     }
     p{
         color:#aec6d9;
@@ -37,18 +44,16 @@
 
 <body>
     
-    <div class="banner" style="background-image: url('./images/favicon.ico');">
+    <div class="banner">
         <div class="heading">
             <div style="height: 75%">
             <h1>OpenPad</h1>
-            <h2>Hacke Dein nächstes Tablet</h2>Hacking
+            <h2>Hacke Dein nächstes Tablet</h2>
             </div>
         </div>
     </div>
 
-    <div class="slide">
-        
-    </div>
+    
 
 
 
@@ -57,19 +62,22 @@
 
     <div style="height: 40px;"></div>
 
-    <div style="width: 1500px; height: 310px;">
+    <div class="slide">
         
-        <div class="blackbox" style="width: 800px; height: 310px;">
-            <h1 style="font-size: 40px;">Was ist OpenPad?</h1>
-            <p1 class="blackboxtxt">OpenPad ist ein von mir im Rahmen von Jugend Forscht 2023 erstelltes Projekt im Bereich der Informatik.<br>Dieses besteht zweigeteilt aus dem OpenPad-Tablet, einem im Rahmen des Projektes erstellten individuell konfigurierbaren Tablet basierend auf der Raspberry-pi Platform,<br>sowie eben dieser Website, welches als Handbuch, Konfigurator, und Design- und Bauanleitung für das Tablet konzipiert ist.</p1>
+        <div class="blackbox">
+            <h1>Was ist OpenPad?</h1>
+            <p1 class="blackboxtxt">OpenPad ist ein von mir im Rahmen von Jugend Forscht 2023 erstelltes Projekt im Bereich der Informatik.<br>Dieses besteht zweigeteilt aus dem OpenPad-Tablet, einem im Rahmen des Projektes erstellten individuell konfigurierbaren Tablet basierend auf der Raspberry-pi Platform,<br>sowie eben dieser Website, welches als Design- und Bauanleitung für das Tablet konzipiert ist.</p1>
         </div>
     </div>
 
-    <div class="slide right-side">
 
     
-            <p1 class="blackboxtxt">Hacking beschreibt die Kunst ein Objekt kreativ umzufunktionieren.<br>Somit ist es bereits hacking Blumen mit einer Kaffekanne zu gießen,  oder ein Batteriefach abzulöten und mit Kabeln an ein Netzteil anzuschließen. Da ich diese Praktrik für sehr nützlich und erstrebenswert hallte, will ich Sie dazu motivieren, von der Anleitung abzuweichen und ein Tablet nach <bold>Ihren</bold> Idealen zu konstruieren.</p1>
-            <div class="pro-div" style="background-color: rgb(0,0,0,0); color:white">
+    <div class="slide right-side">
+        <div class="blackbox">
+            <h1>Was ist Hacking?</h1>
+        
+            <p1 class="blackboxtxt">Hacking beschreibt die Kunst ein Objekt kreativ umzufunktionieren.<br>Somit ist es bereits hacking Blumen mit einer Kaffekanne zu gießen. Da ich diese Fähigkeit für sehr nützlich und erstrebenswert hallte, will ich Sie dazu motivieren, von der Anleitung abzuweichen und ein Tablet nach <bold>Ihren</bold> Idealen zu konstruieren.</p1>
+            <div class="pro-div">
                 <table>
                     <tr>
                         <th>Hacking</th>
@@ -84,22 +92,36 @@
                     </tr>
                 </table>
             </div>
-            <div class="contra-div" style="background-color: rgb(0,0,0,0); color:white;">
+            <div class="contra-div">
                 <table>
                     <tr>
                         <th>Cracking</th>
                     </tr>
-                    <tr>Hacking Hacking 
+                    <tr>
                         <td><b>></b>In Datenbank einbrechen</td>
                         <td><b>></b>Mithile von Timing-Angriffen, Code-Injektionen, oder anderen Mitteln kontrolle über Computer erlangen.</td>
                     </tr>
                 </table>
                 <br>
             </div>
-            
         </div>
     </div>
+
+
     <div style="height: 40px;"></div>
+
+  
+
+    
+
+    
+    
+
+
+    
+
+</body>
+
 
     <!--
     <div style="height: 200px;">
@@ -110,4 +132,3 @@
     </div>
 -->
     
-</body>
